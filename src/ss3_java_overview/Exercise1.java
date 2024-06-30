@@ -11,5 +11,7 @@ public class Exercise1 {
         int currentYear = java.time.Year.now().getValue();
         int age = currentYear - yearOfBirth;
         System.out.println("Your old: " + age);
+        System.out.println("Your age is: " +  age);
+
     }
 }
